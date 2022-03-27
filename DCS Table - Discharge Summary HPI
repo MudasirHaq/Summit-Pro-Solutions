@@ -1,0 +1,5 @@
+CREATE TABLE DischargeSummaryHPI(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_HPI_entry varchar(1000)
+);

@@ -1,0 +1,11 @@
+CREATE TABLE Patient_remote_memory_status (
+    mse_check_eval_rmtmem_former_pres BIT NOT NULL DEFAULT 0,
+    mse_check_eval_rmtmem_age_approp BIT NOT NULL DEFAULT 0,
+    mse_check_eval_rmtmem_lastnews BIT NOT NULL DEFAULT 0,
+    mse_check_eval_rmtmem_citybirth BIT NOT NULL DEFAULT 0,
+    mse_check_eval_rmtmem_oldschoolname BIT NOT NULL DEFAULT 0,
+    mse_opentxt_eval_rmtmem_other VARCHAR(1000),
+    mse_check_eval_rmtmem_within_normal_limits BIT NOT NULL DEFAULT 0,
+    mse_check_eval_rmtmem_impaired BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

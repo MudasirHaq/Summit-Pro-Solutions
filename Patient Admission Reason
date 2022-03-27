@@ -1,0 +1,9 @@
+CREATE TABLE Patient_admission_reason (
+    reason_self_danger BIT NOT NULL DEFAULT 0,
+    reason_deterioration BIT NOT NULL DEFAULT 0,
+    reason_inability BIT NOT NULL DEFAULT 0,
+    reason_other_danger BIT NOT NULL DEFAULT 0,
+    reason_psychosis BIT NOT NULL DEFAULT 0,
+    reason_dependency BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

@@ -1,0 +1,6 @@
+CREATE TABLE Patient_posture_status (
+    mse_check_eval_posture_normal BIT NOT NULL DEFAULT 0,
+    mse_check_eval_posture_stooped BIT NOT NULL DEFAULT 0,
+    mse_check_eval_posture_kyphosis BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

@@ -1,0 +1,6 @@
+CREATE TABLE DischargeSummaryMedication(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_cm_medication varchar(1000),
+dcs_cm_medication_dosage varchar(1000)
+);

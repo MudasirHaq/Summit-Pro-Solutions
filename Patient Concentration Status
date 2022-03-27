@@ -1,0 +1,9 @@
+CREATE TABLE Patient_concentration_status (
+    mse_check_eval_conc_spell BIT NOT NULL DEFAULT 0,
+    mse_check_eval_conc_serial7 BIT NOT NULL DEFAULT 0,
+    mse_check_eval_conc_rapidcount BIT NOT NULL DEFAULT 0,
+    mse_check_eval_conc_age_approp BIT NOT NULL DEFAULT 0,
+    mse_check_eval_conc_within_normal_limits BIT NOT NULL DEFAULT 0,
+    mse_check_eval_conc_impaired BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

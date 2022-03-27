@@ -1,0 +1,7 @@
+CREATE TABLE Family_history_of_psychiatric_disorder (
+    fhp_psych_disord_name VARCHAR(1000),
+    fhp_psych_disord_family_member VARCHAR(1000),
+    fhp_check_psych_disord_none BIT NOT NULL DEFAULT 0,
+    fhp_check_psych_disord_patient_dna BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

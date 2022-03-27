@@ -1,0 +1,9 @@
+CREATE TABLE Patient_four_sphere_orientation_status (
+    mse_check_eval_orient_place BIT NOT NULL DEFAULT 0,
+    mse_check_eval_orient_person BIT NOT NULL DEFAULT 0,
+    mse_check_eval_orient_time BIT NOT NULL DEFAULT 0,
+    mse_check_eval_orient_reason_admission BIT NOT NULL DEFAULT 0,
+    mse_check_eval_orient_within_normal_limits BIT NOT NULL DEFAULT 0,
+    mse_check_eval_orient_impaired BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

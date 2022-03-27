@@ -1,0 +1,7 @@
+CREATE TABLE Patient_age_status (
+    mse_check_eval_age_young BIT NOT NULL DEFAULT 0,
+    mse_check_eval_middle_aged BIT NOT NULL DEFAULT 0,
+    mse_check_eval_elderly BIT NOT NULL DEFAULT 0,
+    mse_check_eval_appears_stated_age BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

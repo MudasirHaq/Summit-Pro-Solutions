@@ -1,0 +1,6 @@
+CREATE TABLE Patient_hygiene_status (
+    GA_hygiene_kempt BIT NOT NULL DEFAULT 0,
+    GA_hygiene_unkempt BIT NOT NULL DEFAULT 0,
+    GA_hygiene_malo BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

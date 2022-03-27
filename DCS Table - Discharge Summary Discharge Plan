@@ -1,0 +1,13 @@
+
+CREATE TABLE DischargeSummaryDischargePlan(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_dischplan_abscence_suicidal_intent BIT NOT NULL DEFAULT 0,
+dcs_dischplan_aftercare_arrangement BIT NOT NULL DEFAULT 0,
+dcs_dischplan_lesser_level_care BIT NOT NULL DEFAULT 0,
+dcs_dischplan_inc_ability_selfcare BIT NOT NULL DEFAULT 0,
+dcs_dischplan_check_eval_improved_mood BIT NOT NULL DEFAULT 0,
+dcs_dischplan_stable_medication BIT NOT NULL DEFAULT 0,
+dcs_dischplan_opentxt_other varchar(1000),
+dcs_dischplan_opentxt_needed_living_arragement varchar(1000)
+);

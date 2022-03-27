@@ -1,0 +1,17 @@
+CREATE TABLE Patient_mood_status (
+    mse_check_eval_mood_tired BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_ok BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_alright BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_happy BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_good BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_sad BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_mad BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_bad BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_desperate BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_worried BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_anxious BIT NOT NULL DEFAULT 0,
+    mse_check_eval_mood_angry BIT NOT NULL DEFAULT 0,
+    mse_opentxt_eval_mood_other VARCHAR(1000),
+    mse_check_eval_mood_patient_dna BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

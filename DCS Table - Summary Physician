@@ -1,0 +1,5 @@
+CREATE TABLE SummaryPhysician(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+physician_name varchar(50)
+);

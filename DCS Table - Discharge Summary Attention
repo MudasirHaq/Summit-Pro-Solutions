@@ -1,0 +1,16 @@
+CREATE TABLE DischargeSummaryAttention(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint KEY NOT NULL,
+dcs_check_attnt_inattentive BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_distractible BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_disorganization BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_forgetful BIT NOT NULL DEFAULT 0,
+dcs_checK_attnt_task_incompletion BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_fidgeting BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_not_seated BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_loud BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_talkative BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_interuptive BIT NOT NULL DEFAULT 0,
+dcs_check_attnt_no_adhd_symptoms BIT NOT NULL DEFAULT 0,
+dcs_check_atttnt_patient_notengaging BIT NOT NULL DEFAULT 0
+);

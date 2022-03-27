@@ -1,0 +1,16 @@
+CREATE TABLE DischargeSummaryStressors(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_check_eval_problems_support BIT NOT NULL DEFAULT 0,
+dcs_check_eval_housing_problems BIT NOT NULL DEFAULT 0,
+dcs_check_eval_healthcare_problems BIT NOT NULL DEFAULT 0,
+dcs_check_eval_bullying BIT NOT NULL DEFAULT 0,
+dcs_check_opentxt_eval_other_problems varchar(1000),
+dcs_check_eval_environment_problems BIT NOT NULL DEFAULT 0,
+dcs_check_eval_economic_problems BIT NOT NULL DEFAULT 0,
+dcs_check_eval_family_conflict BIT NOT NULL DEFAULT 0,
+dcs_check_eval_legal_problems BIT NOT NULL DEFAULT 0,
+dcs_check_eval_occupational_problems BIT NOT NULL DEFAULT 0,
+dcs_check_eval_educational_problems BIT NOT NULL DEFAULT 0,
+dcs_check_eval_social_peer_problems BIT NOT NULL DEFAULT 0
+);

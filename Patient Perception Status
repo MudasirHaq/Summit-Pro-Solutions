@@ -1,0 +1,14 @@
+CREATE TABLE Patient_perception_status (
+    mse_check_eval_perc_auditory BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_command BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_visual BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_tactile BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_olfactory BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_gustatory BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_illusions BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_depersonalization BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_derealization BIT NOT NULL DEFAULT 0,
+    mse_check_eval_perc_no_alteration BIT NOT NULL DEFAULT 0,
+    mse_opentxt_eval_perc_other VARCHAR(1000),
+    ACN BIGINT NOT NULL
+)

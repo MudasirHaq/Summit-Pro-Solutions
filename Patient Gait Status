@@ -1,0 +1,9 @@
+CREATE TABLE Patient_gait_status (
+    mse_check_eval_gait_normal BIT NOT NULL DEFAULT 0,
+    mse_check_eval_gait_awkward BIT NOT NULL DEFAULT 0,
+    mse_check_eval_gait_staggering BIT NOT NULL DEFAULT 0,
+    mse_check_eval_gait_shuffling BIT NOT NULL DEFAULT 0,
+    mse_check_eval_gait_rigid BIT NOT NULL DEFAULT 0,
+    mse_check_eval_gait_high_stepping BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

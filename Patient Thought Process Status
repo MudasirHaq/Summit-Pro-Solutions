@@ -1,0 +1,12 @@
+CREATE TABLE Patient_thought_process_status (
+    mse_check_eval_thoughtproc_logical BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtproc_tangential BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtproc_loose_associations BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtproc_circumstations BIT NOT NULL DEFAULT 0,
+    mse_checK_eval_thoughtproc_flightofideas BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtproc_overinclusive BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtproc_word_salad BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtproc_thought_blocking BIT NOT NULL DEFAULT 0,
+    mse_opentxt_eval_thoughtproc_other VARCHAR(1000),
+    ACN BIGINT NOT NULL
+)

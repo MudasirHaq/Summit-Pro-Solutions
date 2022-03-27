@@ -1,4 +1,4 @@
-CREATE TABLE Previous_suicide_attempt (
+CREATE TABLE Previous_suicidal_behavior (
     pph_prev_suicide_attempt_qty VARCHAR(1000),
     pph_check_prev_suicide_attempt_none BIT NOT NULL DEFAULT 0,
     pph_check_prev_suicide_attempt_dna BIT NOT NULL DEFAULT 0,

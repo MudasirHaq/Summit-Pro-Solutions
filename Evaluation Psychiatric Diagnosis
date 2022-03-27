@@ -34,3 +34,4 @@ INSERT INTO Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medical, AC
 INSERT INTO Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medical, ACN) VALUES ('Pyrimidine metabolism ', 'Nondisplaced fracture of greater trochanter of left femur, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing', 32898264888)
 INSERT INTO Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medical, ACN) VALUES ('Puberty', 'Laceration with foreign body of left breast, sequela', 62232077150)
 INSERT INTO Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medical, ACN) VALUES ('Receptor', 'Calcific tendinitis', 32240110223)
+

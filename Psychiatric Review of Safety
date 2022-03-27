@@ -1,0 +1,15 @@
+CREATE TABLE Psychiatric_review_of_safety (
+    prs_check_safety_suicidal_ideation BIT NOT NULL DEFAULT 0,
+    prs_check_safety_suicidal_intent BIT NOT NULL DEFAULT 0,
+    prs_check_safety_suicidal_plan BIT NOT NULL DEFAULT 0,
+    prs_check_safety_homicidal_ideation BIT NOT NULL DEFAULT 0,
+    prs_check_safety_auditory_hallucinations BIT NOT NULL DEFAULT 0,
+    prs_check_safety_visual_hallucinations BIT NOT NULL DEFAULT 0,
+    prs_check_safety_no_suicidal_intent BIT NOT NULL DEFAULT 0,
+    prs_check_safety_no_harm_intent BIT NOT NULL DEFAULT 0,
+    prs_check_safety_no_suicidal_plan BIT NOT NULL DEFAULT 0,
+    prs_check_safety_no_homicidal_ideation BIT NOT NULL DEFAULT 0,
+    prs_check_safety_no_auditory_hallucinations BIT NOT NULL DEFAULT 0,
+    prs_check_safety_no_visual_hallucinations BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

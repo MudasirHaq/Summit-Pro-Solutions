@@ -1,0 +1,13 @@
+CREATE TABLE Psychiatric_review_of_disruptivity (
+    prs_check_disrup_severe_verbal BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_severe_tantrum BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_persistent_irratible BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_defiance BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_cruelty BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_destroy_property BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_theft BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_lack_remorse BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_no_dmdd_symptoms BIT NOT NULL DEFAULT 0,
+    prs_check_disrup_patient_notengaging BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

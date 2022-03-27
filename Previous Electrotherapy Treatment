@@ -1,0 +1,6 @@
+CREATE TABLE Previous_electrotherapy_treatment (
+    pph_prev_electrotherapy_treatment VARCHAR(1000),
+    pph_check_prev_electrotherapy_treatment_none BIT NOT NULL DEFAULT 0,
+    pph_check_prev_electrotherapy_treatment_dna BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

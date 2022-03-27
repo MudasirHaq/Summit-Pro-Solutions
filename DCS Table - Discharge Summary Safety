@@ -1,0 +1,16 @@
+CREATE TABLE DischargeSummarySafety(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_check_safety_suicidal_ideation BIT NOT NULL DEFAULT 0,
+dcs_check_safety_suicidal_intent BIT NOT NULL DEFAULT 0,
+dcs_check_safety_suicidal_plan BIT NOT NULL DEFAULT 0,
+dcs_check_safety_homicidal_ideation BIT NOT NULL DEFAULT 0,
+dcs_check_safety_auditory_hallucinations BIT NOT NULL DEFAULT 0,
+dcs_check_safety_visual_hallucinations BIT NOT NULL DEFAULT 0,
+dcs_check_safety_no_suicidal_intent BIT NOT NULL DEFAULT 0,
+dcs_check_safety_no_harm_intent BIT NOT NULL DEFAULT 0,
+dcs_check_safety_no_suicidal_plan BIT NOT NULL DEFAULT 0,
+dcs_check_safety_no_homicidal_ideation BIT NOT NULL DEFAULT 0,
+dcs_check_safety_no_auditoty_hallucinations BIT NOT NULL DEFAULT 0,
+dcs_check_safety_no_visual_hallucinations BIT NOT NULL DEFAULT 0
+);

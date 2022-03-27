@@ -1,0 +1,10 @@
+
+ CREATE TABLE Progress_Estimated_Length_of_Stay (
+len_check_pn_less5 BIT NOT NULL DEFAULT 0,
+len_check_pn_5to7 BIT NOT NULL DEFAULT 0,
+len_check_pn_more7 BIT NOT NULL DEFAULT 0,
+len_check_pn_to_be_determined BIT NOT NULL DEFAULT 0,
+len_check_pn_other VARCHAR(1000),
+ACN BIGINT NOT NULL,
+
+);

@@ -1,0 +1,15 @@
+CREATE TABLE Patient_thought_content_delusion_status (
+    mse_check_eval_thoughtcont_del_paranoid BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_persecutory BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_control BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_grandiose BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_reference BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_nhilistic BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_jealousy BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_guilt BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_erotic BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_sematic BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_religous BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_del_bizzare BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

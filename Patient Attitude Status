@@ -1,0 +1,11 @@
+CREATE TABLE Patient_attitude_status (
+    mse_check_eval_attit_calm BIT NOT NULL DEFAULT 0,
+    mse_check_eval_attit_cooperative BIT NOT NULL DEFAULT 0,
+    mse_check_eval_attit_uncooperative BIT NOT NULL DEFAULT 0,
+    mse_check_eval_attit_belligerent BIT NOT NULL DEFAULT 0,
+    mse_check_eval_negativistic BIT NOT NULL DEFAULT 0,
+    mse_check_eval_suspicous BIT NOT NULL DEFAULT 0,
+    mse_check_eval_attit_apathetic BIT NOT NULL DEFAULT 0,
+    mse_check_eval_attit_fearful BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

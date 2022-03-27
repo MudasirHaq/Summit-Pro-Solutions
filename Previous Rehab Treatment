@@ -35,3 +35,4 @@ INSERT INTO Previous_rehab_treatment (pph_prev_rehab_treatment, pph_check_prev_r
 INSERT INTO Previous_rehab_treatment (pph_prev_rehab_treatment, pph_check_prev_rehab_treatment_none, pph_check_prev_rehab_treatment_dna, ACN) VALUES ('None', 1, 0, 32898264888)
 INSERT INTO Previous_rehab_treatment (pph_prev_rehab_treatment, pph_check_prev_rehab_treatment_none, pph_check_prev_rehab_treatment_dna, ACN) VALUES ('None', 0, 1, 62232077150)
 INSERT INTO Previous_rehab_treatment (pph_prev_rehab_treatment, pph_check_prev_rehab_treatment_none, pph_check_prev_rehab_treatment_dna, ACN) VALUES ('ALT Recovery Group', 0, 0, 32240110223)
+

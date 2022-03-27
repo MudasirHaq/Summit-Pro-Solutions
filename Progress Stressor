@@ -1,0 +1,15 @@
+CREATE TABLE Progress_Stressor (
+strs_check_pn_problems_support BIT NOT NULL DEFAULT 0,
+strs_check_pn_housing_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_healthcare_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_bullying BIT NOT NULL DEFAULT 0,
+strs_check_pn_other_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_environment_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_economic_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_family_conflict BIT NOT NULL DEFAULT 0,
+strs_check_pn_legal_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_occupational_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_educational_problems BIT NOT NULL DEFAULT 0,
+strs_check_pn_social_peer_problems BIT NOT NULL DEFAULT 0,
+ACN BIGINT NOT NULL,
+);

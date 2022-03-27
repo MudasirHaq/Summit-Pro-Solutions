@@ -1,0 +1,7 @@
+CREATE TABLE Previous_psychiatric_diagnosis (
+    pph_prev_diagnosis_psych VARCHAR(1000),
+    pph_check_prev_diagnosis_psych_none BIT NOT NULL DEFAULT 0,
+    pph_check_prev_diagnosis_psych_dna BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)
+

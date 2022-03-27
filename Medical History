@@ -1,0 +1,19 @@
+CREATE TABLE Medical_history (
+    mh_check_hypertension BIT NOT NULL DEFAULT 0,
+    mh_check_diabetus_melitus BIT NOT NULL DEFAULT 0,
+    mh_check_asthma BIT NOT NULL DEFAULT 0,
+    mh_check_hyperlipidemia BIT NOT NULL DEFAULT 0,
+    mh_check_thyroid_disease BIT NOT NULL DEFAULT 0,
+    mh_check_coronary_artery_disease BIT NOT NULL DEFAULT 0,
+    mh_check_seizure BIT NOT NULL DEFAULT 0,
+    mh_check_stroke BIT NOT NULL DEFAULT 0,
+    mh_check_head_trauma BIT NOT NULL DEFAULT 0,
+    mh_check_opentxt VARCHAR(1000),
+    mh_check_patient_notenaging BIT NOT NULL DEFAULT 0,
+    mh_check_orthopedic_surgery BIT NOT NULL DEFAULT 0,
+    mh_check_neuro_surgery BIT NOT NULL DEFAULT 0,
+    mh_check_cardio_surgery BIT NOT NULL DEFAULT 0,
+    mh_check_gastrointestinal_surgery BIT NOT NULL DEFAULT 0,
+    mh_check_none BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+) 

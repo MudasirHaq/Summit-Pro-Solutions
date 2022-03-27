@@ -1,0 +1,15 @@
+CREATE TABLE Psychiatric_review_of_attention (
+    prs_check_attnt_inattentive BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_distractible BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_disorganizaion BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_forgetful BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_task_incompletion BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_fidgeting BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_not_seated BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_loud BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_talkative BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_interuptive BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_no_adhd_symptoms BIT NOT NULL DEFAULT 0,
+    prs_check_attnt_patient_notengaging BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

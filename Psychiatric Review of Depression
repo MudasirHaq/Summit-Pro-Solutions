@@ -1,0 +1,14 @@
+CREATE TABLE Psychiatric_review_of_depression (
+    prs_check_dep_depressive_mood BIT NOT NULL DEFAULT 0,
+    prs_check_dep_low_interest BIT NOT NULL DEFAULT 0,
+    prs_check_dep_appetite_problems BIT NOT NULL DEFAULT 0,
+    prs_check_dep_sleep_problems BIT NOT NULL DEFAULT 0,
+    prs_check_dep_psychomotor_retardation BIT NOT NULL DEFAULT 0,
+    prs_check_dep_psychomotor_agitation BIT NOT NULL DEFAULT 0,
+    prs_check_dep_fatigue BIT NOT NULL DEFAULT 0,
+    prs_check_dep_guilt BIT NOT NULL DEFAULT 0,
+    prs_check_dep_low_concentration BIT NOT NULL DEFAULT 0,
+    prs_check_dep_no_depressive_symptoms BIT NOT NULL DEFAULT 0,
+    prs_check_dep_patient_notengaging BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

@@ -1,0 +1,5 @@
+CREATE TABLE States (
+	stateID INT, 
+	stateName varchar(50),
+	);
+  

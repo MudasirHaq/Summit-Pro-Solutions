@@ -1,0 +1,10 @@
+CREATE TABLE Psychiatric_review_of_trauma (
+    prs_check_trauma_abuse BIT NOT NULL DEFAULT 0,
+    prs_check_trauma_nightmare BIT NOT NULL DEFAULT 0,
+    prs_check_trauma_avoid BIT NOT NULL DEFAULT 0,
+    prs_check_trauma_guilt BIT NOT NULL DEFAULT 0,
+    prs_check_trauma_hyperarousal BIT NOT NULL DEFAULT 0,
+    prs_check_trauma_no_ptsd_symptoms BIT NOT NULL DEFAULT 0,
+    prs_check_trauma_patient_notengaging BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

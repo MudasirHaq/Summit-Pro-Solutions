@@ -1,0 +1,7 @@
+CREATE TABLE Patient_weight_status (
+    mse_check_eval_wt_average BIT NOT NULL DEFAULT 0,
+    mse_check_eval_wt_overweight BIT NOT NULL DEFAULT 0,
+    mse_check_eval_wt_obese BIT NOT NULL DEFAULT 0,
+    mse_check_eval_underweight BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

@@ -1,0 +1,10 @@
+CREATE TABLE DischargeSummaryAdmissionReason (
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_reason_self_danger BIT NOT NULL DEFAULT 0,
+dcs_reason_deterioration BIT NOT NULL DEFAULT 0,
+dcs_reason_inability BIT NOT NULL DEFAULT 0,
+dcs_reason_other_danger BIT NOT NULL DEFAULT 0,
+dcs_reason_psychosis BIT NOT NULL DEFAULT 0,
+dcs_reason_dependacy BIT NOT NULL DEFAULT 0
+);

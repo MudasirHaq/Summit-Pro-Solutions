@@ -1,0 +1,11 @@
+CREATE TABLE DischargeSummaryTrauma(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_check_trauma_abuse BIT NOT NULL DEFAULT 0,
+dcs_check_trauma_nightmare BIT NOT NULL DEFAULT 0,
+dcs_check_trauma_avoid BIT NOT NULL DEFAULT 0,
+dcs_check_trauma_guilt BIT NOT NULL DEFAULT 0,
+dcs_check_trauma_hyperarousal BIT NOT NULL DEFAULT 0,
+dcs_check_trauma_no_ptsd_symptoms BIT NOT NULL DEFAULT 0,
+dcs_check_trauma_patient_notengaging BIT NOT NULL DEFAULT 0
+);

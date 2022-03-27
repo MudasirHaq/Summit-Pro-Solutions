@@ -1,0 +1,8 @@
+CREATE TABLE Patient_abstract_reasoning_status (
+    mse_check_eval_abstract_similarities BIT NOT NULL DEFAULT 0,
+    mse_check_eval_abstract_proverbs BIT NOT NULL DEFAULT 0,
+    mse_opentxt_eval_abstract_other VARCHAR(1000),
+    mse_check_eval_abstract_within_normal_limits BIT NOT NULL DEFAULT 0,
+    mse_check_eval_abstract_impaired BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

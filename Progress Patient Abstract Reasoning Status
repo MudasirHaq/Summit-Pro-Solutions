@@ -1,9 +1,8 @@
- CREATE TABLE Progress_Patient_Abstract_Reasoning_Status (
+CREATE TABLE Progress_Patient_Abstract_Reasoning_Status (
 mse_check_pn_abstract_similarities BIT NOT NULL DEFAULT 0,
 mse_check_pn_abstract_proverbs BIT NOT NULL DEFAULT 0,
 mse_opentxt_pn_abstract_other VARCHAR(1000),
 mse_check_pn_abstract_within_normal_limits BIT NOT NULL DEFAULT 0,
 mse_check_pn_abstract_impaired BIT NOT NULL DEFAULT 0,
 ACN BIGINT NOT NULL,
-
 )

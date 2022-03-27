@@ -8,3 +8,4 @@ mse_check_pn_rec_group_therapy BIT NOT NULL DEFAULT 0,
 mse_check_pn_rec_participation BIT NOT NULL DEFAULT 0,
 mse_opentxt_pn_rec_other BIT NOT NULL DEFAULT 0,
 ACN BIGINT NOT NULL,
+)

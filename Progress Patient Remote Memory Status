@@ -1,0 +1,11 @@
+CREATE TABLE Progress_Patient_Remote_Memory_Status (
+mse_check_pn_rmtmem_former_pres BIT NOT NULL DEFAULT 0,
+mse_check_pn_rmtmem_age_approp BIT NOT NULL DEFAULT 0,
+mse_check_pn_rmtmem_lastnews BIT NOT NULL DEFAULT 0,
+mse_check_pn_rmtmem_citybirth BIT NOT NULL DEFAULT 0,
+mse_check_pn_rmtmem_oldschoolname BIT NOT NULL DEFAULT 0,
+mse_opentxt_pn_rmtmem_other VARCHAR(1000),
+mse_check_pn_rmtmem_within_normal_limits BIT NOT NULL DEFAULT 0,
+mse_check_pn_rmtmem_impaired BIT NOT NULL DEFAULT 0,
+ACN BIGINT NOT NULL,
+)

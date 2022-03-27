@@ -1,0 +1,9 @@
+CREATE TABLE Progress_Patient_Estimated_Intelligence_Status (
+mse_check_pn_estint_vocab BIT NOT NULL DEFAULT 0,
+mse_check_pn_estint_education BIT NOT NULL DEFAULT 0,
+mse_opentxt_pn_estint_other BIT NOT NULL DEFAULT 0,
+mse_check_pn_estint_above_avg BIT NOT NULL DEFAULT 0,
+mse_check_pn_estint_avg BIT NOT NULL DEFAULT 0,
+mse_check_pn_estint_below_avg BIT NOT NULL DEFAULT 0,
+ACN BIGINT NOT NULL,
+)

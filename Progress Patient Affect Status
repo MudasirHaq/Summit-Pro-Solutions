@@ -1,0 +1,13 @@
+CREATE TABLE Progress_Patient_Affect_Status (
+mse_check_pn_affect_flat BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_blunted BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_constricted BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_full_range BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_depressed BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_anxious BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_expansive BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_congruent_to_mood BIT NOT NULL DEFAULT 0,
+mse_check_pn_affect_incongruent_to_mood BIT NOT NULL DEFAULT 0,
+mse_openttxt_pn_affect_other VARCHAR(1000),
+ACN BIGINT NOT NULL,
+)

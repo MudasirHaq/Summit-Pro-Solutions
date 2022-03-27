@@ -1,0 +1,17 @@
+CREATE TABLE Progress_Patient_Mood_Status (
+mse_check_pn_mood_tired BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_ok BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_alright BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_happy BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_good BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_sad BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_bad BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_mad BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_desperate BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_worried BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_anxious BIT NOT NULL DEFAULT 0,
+mse_check_pn_mood_angry BIT NOT NULL DEFAULT 0,
+mse_opentxt_pn_mood_other VARCHAR(1000),
+mse_check_pn_mood_patient_dna BIT NOT NULL DEFAULT 0,
+ACN BIGINT NOT NULL,
+)

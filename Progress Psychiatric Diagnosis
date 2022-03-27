@@ -1,0 +1,6 @@
+CREATE TABLE Progress_Psychiatric_Diagnosis (
+dx_pn_check_any_changes_in_dx BIT NOT NULL DEFAULT 0,
+dx_pn_psych VARCHAR(1000),
+dx_pn_medical VARCHAR (1000),
+ACN BIGINT NOT NULL,
+)

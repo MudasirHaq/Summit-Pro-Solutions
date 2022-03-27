@@ -1,0 +1,8 @@
+CREATE TABLE Progress_Plan_for_Continued_Treatment (
+pct_pn_check_medication_mgmt BIT NOT NULL DEFAULT 0,
+pct_pn_check_coping_skills BIT NOT NULL DEFAULT 0,
+pct_pn_check_group_therapy BIT NOT NULL DEFAULT 0,
+pct_pn_check_program_participation BIT NOT NULL DEFAULT 0,
+pct_pn_opentxt_other VARCHAR(1000),
+ACN BIGINT NOT NULL,
+)

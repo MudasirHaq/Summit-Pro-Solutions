@@ -1,0 +1,8 @@
+CREATE TABLE Progress_Patient_Recent_Memory_Status (
+mse_check_pn_recmem_5minrecall BIT NOT NULL DEFAULT 0,
+mse_check_pn_recmem_6digit BIT NOT NULL DEFAULT 0,
+mse_check_pn_recmem_age_approp BIT NOT NULL DEFAULT 0,
+mse_check_pn_recmem_within_normal_limits BIT NOT NULL DEFAULT 0,
+mse_check_pn_recmem_impaired BIT NOT NULL DEFAULT 0,
+ACN BIGINT NOT NULL,
+)

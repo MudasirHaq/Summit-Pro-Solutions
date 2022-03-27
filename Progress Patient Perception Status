@@ -1,0 +1,14 @@
+CREATE TABLE Progress_Patient_Perception_Status (
+mse_check_pn_perc_auditory BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_command BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_visual BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_tactile BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_olfactory BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_gustatory BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_illusions BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_depersoalization BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_derealization BIT NOT NULL DEFAULT 0,
+mse_check_pn_perc_no_alteration BIT NOT NULL DEFAULT 0,
+mse_openttxt_pn_perc_other VARCHAR(1000),
+ACN BIGINT NOT NULL,
+)

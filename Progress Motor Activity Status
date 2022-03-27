@@ -1,0 +1,14 @@
+CREATE TABLE Progress_Motor_Activity_Status (
+mse_check_pn_motor_normal BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_restless BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_hyperactive BIT NOT NULL DEFAULT 0,
+mse_checK_pn_motor_bizzare_gestures BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_mannerisms BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_stereotypes BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_posturing BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_ties BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_tremors BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_psychomotor_agitation BIT NOT NULL DEFAULT 0,
+mse_check_pn_motor_psychomotor_retardation BIT NOT NULL DEFAULT 0,
+ACN BIGINT NOT NULL,
+);

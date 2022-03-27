@@ -1,0 +1,8 @@
+CREATE TABLE Patient_recent_memory_status (
+    mse_check_eval_recmem_5minrecall BIT NOT NULL DEFAULT 0,
+    mse_check_eval_recmem_6digit BIT NOT NULL DEFAULT 0,
+    mse_check_eval_recmem_age_approp BIT NOT NULL DEFAULT 0,
+    mse_check_eval_recmem_within_normal_limits BIT NOT NULL DEFAULT 0,
+    mse_check_eval_recmem_impaired BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

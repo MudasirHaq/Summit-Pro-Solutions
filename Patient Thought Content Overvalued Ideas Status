@@ -1,0 +1,11 @@
+CREATE TABLE Patient_thought_content_overvalued_ideas_status (
+    mse_check_eval_thoughtcont_ovr_paranoid BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_ovr_control BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_ovr_reference BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_ovr_obssessions BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_ovr_suicidal_thought BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_ovr_homicidal_thought BIT NOT NULL DEFAULT 0,
+    mse_check_eval_thoughtcont_ovr_no_disturbance BIT NOT NULL DEFAULT 0,
+    mse_opentxt_eval_thoughtcont_ovr_other VARCHAR(1000),
+    ACN BIGINT NOT NULL
+)

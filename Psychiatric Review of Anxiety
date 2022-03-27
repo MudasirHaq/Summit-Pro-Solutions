@@ -1,0 +1,17 @@
+CREATE TABLE Psychiatric_review_of_anxiety (
+    prs_check_anx_anxious BIT NOT NULL DEFAULT 0,
+    prs_check_anx_restless BIT NOT NULL DEFAULT 0,
+    prs_check_anx_fatigue BIT NOT NULL DEFAULT 0,
+    prs_check_anx_low_concentration BIT NOT NULL DEFAULT 0,
+    prs_check_anx_irratible BIT NOT NULL DEFAULT 0,
+    prs_check_anx_muscle_tension BIT NOT NULL DEFAULT 0,
+    prs_check_anx_sleep_problems BIT NOT NULL DEFAULT 0,
+    prs_check_anx_social_anxiety BIT NOT NULL DEFAULT 0,
+    prs_check_anx_obsessive_compulsive BIT NOT NULL DEFAULT 0,
+    prs_check_anx_seperation_anxiety BIT NOT NULL DEFAULT 0,
+    prs_check_anx_panic BIT NOT NULL DEFAULT 0,
+    prs_check_anx_phobia BIT NOT NULL DEFAULT 0,
+    prs_check_anx_no_anxiety_symptoms BIT NOT NULL DEFAULT 0,
+    prs_check_anx_patient_notengaging BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

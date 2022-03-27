@@ -1,0 +1,10 @@
+CREATE TABLE Progress_Patient_Gait_Status (
+
+	mse_check_pn_gait_normal BIT NOT NULL DEFAULT 0,
+	mse_check_pn_gait_awkward BIT NOT NULL DEFAULT 0 ,
+	mse_check_pn_gait_staggering BIT NOT NULL DEFAULT 0,
+	mse_check_pn_gait_shuffling BIT NOT NULL DEFAULT 0,
+	mse_check_pn_gait_rigid BIT NOT NULL DEFAULT 0,
+	mse_check_gn_gait_high_stepping BIT NOT NULL DEFAULT 0,
+	ACN BIGINT NOT NULL,
+);

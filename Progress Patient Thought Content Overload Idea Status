@@ -1,0 +1,12 @@
+CREATE TABLE Progress_Patient_Thought_Content_Overvalued_Idea_Status (
+
+	mse_check_pn_thoughtcont_ovr_paranoid BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_ovr_control BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_ovr_reference BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_ovr_obsession BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_ovr_suicidal_thought BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_ovr_homicidal_thought BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_ovr_no_disturbance BIT NOT NULL DEFAULT 0,
+	mse_openttxt_pn_thoughtcont_ovr_other VARCHAR(1000),
+	ACN BIGINT NOT NULL,
+);

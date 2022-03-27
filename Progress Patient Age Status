@@ -1,0 +1,8 @@
+ CREATE TABLE Progress_Patient_Age_Status (
+
+	mse_check_pn_age_young BIT NOT NULL DEFAULT 0,
+	mse_check_pn_age_middle_aged BIT NOT NULL DEFAULT 0,
+	mse_check_pn_age_elderly BIT NOT NULL DEFAULT 0,
+	mse_check_pn_age_appears_stated_age BIT NOT NULL DEFAULT 0,
+	ACN BIGINT NOT NULL,
+);

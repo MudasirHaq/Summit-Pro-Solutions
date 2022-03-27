@@ -1,0 +1,17 @@
+CREATE TABLE Progress_Patient_Thought_Content_Delusion_Status (
+
+	mse_check_pn_thoughtcont_del_paranoid BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_persecutory BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_control BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_grandiose BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_reference BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_nihilistic BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_jealousy BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_guilt BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_erotic BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_sematic BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_religous BIT NOT NULL DEFAULT 0,
+	mse_check_pn_thoughtcont_del_bizarre BIT NOT NULL DEFAULT 0,
+	ACN BIGINT NOT NULL,
+
+);

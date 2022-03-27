@@ -1,0 +1,8 @@
+CREATE TABLE Progress_Patient_Grooming_Status (
+
+	mse_check_pn_grm_well_cladded BIT NOT NULL DEFAULT 0,
+	mse_check_pn_grm_clumsy BIT NOT NULL DEFAULT 0,
+	mse_check_pn_grm_good_eyecontact BIT NOT NULL DEFAULT 0,
+	mse_check_pn_grm_bad_eyecontact BIT NOT NULL DEFAULT 0,
+	ACN BIGINT NOT NULL,
+);

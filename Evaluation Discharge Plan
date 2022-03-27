@@ -1,0 +1,11 @@
+CREATE TABLE Evaluation_discharge_plan (
+    dischplan_check_eval_absence_suicidal_intent BIT NOT NULL DEFAULT 0,
+    dischplan_check_eval_aftercare_arrangement BIT NOT NULL DEFAULT 0,
+    dischplan_check_eval_lesser_level_care BIT NOT NULL DEFAULT 0,
+    dischplan_check_eval_inc_ability_selfcare BIT NOT NULL DEFAULT 0,
+    dischplan_check_eval_improved_mood BIT NOT NULL DEFAULT 0,
+    dischplan_check_eval_stable_medication BIT NOT NULL DEFAULT 0,
+    dischplan_opentxt_eval_other VARCHAR(1000),
+    dischplan_opentxt_eval_needed_living_arrangement VARCHAR(1000),
+    ACN BIGINT NOT NULL
+)

@@ -1,0 +1,11 @@
+CREATE TABLE DischargeSummaryMSERecommendations(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_check_eval_rec_med_stabilization BIT NOT NULL DEFAULT 0,
+dcs_check_eval_rec_milieu_therapy BIT NOT NULL DEFAULT 0,
+dcs_check_eval_rec_med_management BIT NOT NULL DEFAULT 0,
+dcs_check_eval_rec_coping_skills BIT NOT NULL DEFAULT 0,
+dcs_check_eval_rec_group_therapy BIT NOT NULL DEFAULT 0,
+dcs_check_eval_rec_participation BIT NOT NULL DEFAULT 0,
+dcs_check_eval_rec_other BIT NOT NULL DEFAULT 0
+);

@@ -1,0 +1,7 @@
+CREATE TABLE Family_history_of_suicide_attempts (
+    fhp_suicide_attempt_qty VARCHAR(1000),
+    fhp_suicide_attempt_family_memeber VARCHAR(1000),
+    fhp_check_suicide_attempt_none BIT NOT NULL DEFAULT 0,
+    fhp_check_suicide_attempt_patient_dna BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

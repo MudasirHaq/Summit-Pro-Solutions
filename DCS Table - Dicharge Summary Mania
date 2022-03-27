@@ -1,0 +1,13 @@
+CREATE TABLE DischargeSummaryMania(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_check_mania_grandoise BIT NOT NULL DEFAULT 0,
+dcs_check_mania_need_sleep BIT NOT NULL DEFAULT 0,
+dcs_check_mania_talkative BIT NOT NULL DEFAULT 0,
+dcs_check_mania_racing_thoughts BIT NOT NULL DEFAULT 0,
+dcs_check_mania_highly_distractible BIT NOT NULL DEFAULT 0,
+dcs_check_mania_goal_activity BIT NOT NULL DEFAULT 0,
+dcs_check_mania_risky_behavior_emotion_handicapped BIT NOT NULL DEFAULT 0,
+dcs_check_mania_no_manic_symptoms BIT NOT NULL DEFAULT 0,
+dcs_check_mania_patient_not_engaging BIT NOT NULL DEFAULT 0
+);

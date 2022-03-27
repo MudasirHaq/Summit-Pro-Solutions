@@ -1,0 +1,15 @@
+CREATE TABLE DischargeSummaryDepression(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_check_dep_depressive_mood BIT NOT NULL DEFAULT 0,
+dcs_check_dep_low_interest BIT NOT NULL DEFAULT 0,
+dcs_check_dep_appetite_problems BIT NOT NULL DEFAULT 0,
+dcs_check_dep_sleep_problems BIT NOT NULL DEFAULT 0,
+dcs_check_dep_psychomotor_retardations BIT NOT NULL DEFAULT 0,
+dcs_check_dep_psychomotor_agitation BIT NOT NULL DEFAULT 0,
+dcs_check_dep_fatique BIT NOT NULL DEFAULT 0,
+dcs_check_dep_guilt BIT NOT NULL DEFAULT 0,
+dcs_check_dep_low_concentration BIT NOT NULL DEFAULT 0,
+dcs_check_dep_no_depressive_symptoms BIT NOT NULL DEFAULT 0,
+dcs_check_dep_patient_notengaging BIT NOT NULL DEFAULT 0
+);

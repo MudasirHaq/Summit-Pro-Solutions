@@ -1,0 +1,4 @@
+CREATE TABLE History_of_present_illness (
+    HPI_entry VARCHAR(1000),
+    ACN BIGINT NOT NULL
+)

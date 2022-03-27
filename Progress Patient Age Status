@@ -5,4 +5,4 @@
 	mse_check_pn_age_elderly BIT NOT NULL DEFAULT 0,
 	mse_check_pn_age_appears_stated_age BIT NOT NULL DEFAULT 0,
 	ACN BIGINT NOT NULL,
-);
+)

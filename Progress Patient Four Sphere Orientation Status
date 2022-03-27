@@ -1,0 +1,10 @@
+CREATE TABLE Progress_Patient_Four_Sphere_Orientation_Status (
+
+	mse_check_pn_orient_place BIT NOT NULL DEFAULT 0,	
+	mse_check_pn_orient_person BIT NOT NULL DEFAULT 0,	
+	mse_check_pn_orient_time BIT NOT NULL DEFAULT 0,
+	mse_check_pn_orient_reason_admission BIT NOT NULL DEFAULT 0,
+	mse_check_pn_orient_within_normal_limits BIT NOT NULL DEFAULT 0,
+	mse_check_pn_orient_impaired BIT NOT NULL DEFAULT 0,
+	ACN BIGINT NOT NULL,
+)

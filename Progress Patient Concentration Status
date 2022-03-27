@@ -1,0 +1,11 @@
+CREATE TABLE Progress_Patient_Concentration_Status (
+
+mse_check_pn_conc_spell BIT NOT NULL DEFAULT 0,
+mse_check_pn_conc_serial BIT NOT NULL DEFAULT 0,
+mse_check_pn_conc_rapidcount BIT NOT NULL DEFAULT 0,
+mse_check_pn_conc_age_approp BIT NOT NULL DEFAULT 0,
+mse_check_pn_conc_within_normal_limits BIT NOT NULL DEFAULT 0,
+mse_check_pn_conc_impaired BIT NOT NULL DEFAULT 0,
+ACN BIGINT NOT NULL,
+
+)

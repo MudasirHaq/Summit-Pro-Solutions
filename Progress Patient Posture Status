@@ -4,4 +4,4 @@ CREATE TABLE Progress_Patient_Posture_Status (
 	mse_check_pn_posture_stooped BIT NOT NULL DEFAULT 0,
 	mse_check_pn_posture_kyphosis BIT NOT NULL DEFAULT 0,
 	ACN BIGINT NOT NULL,
-);
+)

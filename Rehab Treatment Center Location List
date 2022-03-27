@@ -2,7 +2,7 @@ CREATE TABLE Rehab_Treatment_Center_Location_List (
 rehab_center_idcode INT NOT NULL,
 rehab_center_name VARCHAR(50) NOT NULL,
 PRIMARY KEY (rehab_center_idcode),
-);
+)
 
 INSERT INTO  Rehab_Treatment_Center_Location_list (rehab_center_idcode, rehab_center_name) VALUES (1, 'Perfectly Imperfect LLC');
 INSERT INTO  Rehab_Treatment_Center_Location_list (rehab_center_idcode, rehab_center_name) VALUES (2, 'First Choice Community Hlthcare Inc');

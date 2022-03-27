@@ -5,4 +5,4 @@ CREATE TABLE Progress_Patient_Weight_Status (
 	mse_check_pn_wt_obese BIT NOT NULL DEFAULT 0,
 	mse_check_pn_wt_underweight BIT NOT NULL DEFAULT 0,
 	ACN BIGINT NOT NULL,
-);
+)

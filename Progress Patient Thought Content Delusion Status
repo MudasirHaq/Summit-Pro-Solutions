@@ -14,4 +14,4 @@ CREATE TABLE Progress_Patient_Thought_Content_Delusion_Status (
 	mse_check_pn_thoughtcont_del_bizarre BIT NOT NULL DEFAULT 0,
 	ACN BIGINT NOT NULL,
 
-);
+)

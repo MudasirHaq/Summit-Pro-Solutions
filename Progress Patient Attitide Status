@@ -9,4 +9,4 @@ CREATE TABLE Progress_Patient_Attitude_Status (
 	mse_check_pn_attit_apathetic BIT NOT NULL DEFAULT 0,
 	mse_check_pn_attit_fearful BIT NOT NULL DEFAULT 0,
 	ACN BIGINT NOT NULL,
-);
+)

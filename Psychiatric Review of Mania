@@ -1,0 +1,12 @@
+CREATE TABLE Psychiatric_review_of_mania (
+    prs_check_mania_grandiose BIT NOT NULL DEFAULT 0,
+    prs_check_mania_need_sleep BIT NOT NULL DEFAULT 0,
+    prs_check_mania_talkative BIT NOT NULL DEFAULT 0,
+    prs_check_mania_racing_thoughts BIT NOT NULL DEFAULT 0,
+    prs_check_mania_highly_distractible BIT NOT NULL DEFAULT 0,
+    prs_check_mania_goal_activity BIT NOT NULL DEFAULT 0,
+    prs_check_mania_risky_behavior_emotion_handicapped BIT NOT NULL DEFAULT 0,
+    prs_check_mania_no_manic_symptoms BIT NOT NULL DEFAULT 0,
+    prs_check_mania_patient_notengaging BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

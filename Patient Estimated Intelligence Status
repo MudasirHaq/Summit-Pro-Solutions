@@ -1,0 +1,9 @@
+CREATE TABLE Patient_estimated_intelligence_status (
+    mse_check_eval_estint_vocab BIT NOT NULL DEFAULT 0,
+    mse_check_eval_estint_education BIT NOT NULL DEFAULT 0,
+    mse_opentxt_eval_estint_other VARCHAR(1000),
+    mse_check_eval_estint_above_avg BIT NOT NULL DEFAULT 0,
+    mse_check_eval_estint_avg BIT NOT NULL DEFAULT 0,
+    mse_check_eval_estint_below_avg BIT NOT NULL DEFAULT 0,
+    ACN BIGINT NOT NULL
+)

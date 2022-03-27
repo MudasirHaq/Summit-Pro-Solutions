@@ -1,0 +1,5 @@
+CREATE TABLE DischargeSummaryDischargeLocations(
+id int IDENTITY (1,1) PRIMARY KEY,
+ACN bigint NOT NULL,
+dcs_disch_loc_name varchar(50)
+);

@@ -5,6 +5,7 @@ CREATE TABLE Family_history_of_substance_use_disorders (
     fhp_substance_disord_patient_dna BIT NOT NULL DEFAULT 0,
     ACN BIGINT NOT NULL
 )
+
 insert into Family_history_of_substance_use_disorders (fhp_substance_disord_name, fhp_substance_disord_family_member, fhp_substance_disord_none, fhp_substance_disord_patient_dna, ACN) values ('Mental and behavioural disorders due to use of hallucinogens', 'Brother', 0, 0, 53847123888);
 insert into Family_history_of_substance_use_disorders (fhp_substance_disord_name, fhp_substance_disord_family_member, fhp_substance_disord_none, fhp_substance_disord_patient_dna, ACN) values ('Mental and behavioural disorders due to use of alcohol', 'Uncle', 0, 0, 53239821780);
 insert into Family_history_of_substance_use_disorders (fhp_substance_disord_name, fhp_substance_disord_family_member, fhp_substance_disord_none, fhp_substance_disord_patient_dna, ACN) values ('Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances', 'Aunt', 0, 0, 49498809929);

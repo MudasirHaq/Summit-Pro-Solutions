@@ -6,3 +6,44 @@ CREATE TABLE Estimated_length_of_stay (
     len_opentxt_eval_other BIT NOT NULL DEFAULT 0,
     ACN BIGINT NOT NULL
 )
+
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 1, 0, 0, '53847123888');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 0, 1, 1, 1, '53239821780');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 1, 1, 1, '49498809929');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 1, 0, 1, '80829362529');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 1, 0, '50662091342');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 1, 0, 0, '45293676173');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 0, 0, 1, 1, '76056640986');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 1, 1, 1, '41895268601');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 0, 0, 0, '63057262696');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 0, 1, 1, '55515315988');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 0, 0, 1, '98341434598');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 0, 1, 1, 0, '69719499750');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 0, 0, '45129431988');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 1, 0, 1, '73373085843');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 0, 1, 1, '40895957518');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 1, 0, '96102361618');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 0, 1, '67406231076');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 1, 0, 1, '70400507649');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 1, 1, 1, '88514553439');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 1, 0, '74649674998');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 0, 0, 1, '71297297573');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 0, 0, 1, '65541665839');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 1, 0, 0, '47690387353');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 0, 0, 1, 1, '48119830340');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 1, 0, 0, '91885989859');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 0, 0, '31179873541');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 1, 1, 0, '33144119346');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 1, 1, 0, '32898264888');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 0, 0, 0, 0, '62232077150');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 1, 1, 1, '32240110223');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 1, 1, 1, '41052277807');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 1, 0, 0, '62410446126');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 1, 1, '38867183592');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 0, 0, 1, '78466739510');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 0, 1, 0, 0, '41930101396');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 0, 1, 0, '44840351499');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 0, 0, 0, 1, '08945528068');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (1, 1, 0, 0, 1, '74370793028');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 1, 0, 1, '90140095798');
+insert into Estimated_length_of_stay (len_check_eval_less5, len_check_eval_5to7, len_check_eval_more7, len_check_eval_to_be_determined, len_opentxt_eval_other, ACN) values (0, 1, 0, 0, 1, '05699724843');

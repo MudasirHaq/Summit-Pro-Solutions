@@ -1,37 +1,47 @@
-CREATE TABLE Previous_suicidal_behavior (
+CREATE TABLE Previous_suicide_attempt (
     pph_prev_suicide_attempt_qty VARCHAR(1000),
     pph_check_prev_suicide_attempt_none BIT NOT NULL DEFAULT 0,
     pph_check_prev_suicide_attempt_dna BIT NOT NULL DEFAULT 0,
     ACN BIGINT NOT NULL
 )
 
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (53847123888, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (53239821780, 'Attempted one year ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (49498809929, 'Attempted two years ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (80829362529, 'Attempted three years ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (50662091342, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (45293676173, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (76056640986, 'Attempted two years ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (41895268601, 'Attempted six months ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (63057262696, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (55515315988, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (89834143459, 'Attempted two weeks ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (69719499750, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (45129431988, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (73373085843, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (40895957518, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (96102361618, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (67406231076, 'Attempted five years ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (70400507649, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (88514553439, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (74649674998, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (71297297573, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (65541665839, 'Attempted nine months ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (47690387353, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (48119830340, 'Attempted one week ago', 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (91885989859, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (31179873541, null, 0, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (33144119346, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (32898264888, 'Attempted three weeks ago;, 1, 0);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (62232077150, null, 0, 1);
-insert into Previous_suicidal_behavior (ACN, pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna) values (32240110223, null, 0, 1);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 53847123888);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (3, 0, 0, 53239821780);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 49498809929);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 80829362529);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 50662091342);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 45293676173);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 76056640986);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 41895268601);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 63057262696);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 55515315988);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 98341434598);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 69719499750);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 45129431988);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 73373085843);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 40895957518);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 96102361618);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (3, 0, 0, 67406231076);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 70400507649);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 88514553439);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (3, 0, 0, 74649674998);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 71297297573);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 65541665839);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 47690387353);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 48119830340);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 91885989859);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 31179873541);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 33144119346);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 32898264888);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 62232077150);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 32240110223);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 41052277807);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (3, 0, 0, 62410446126);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 38867183592);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 78466739510);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (3, 0, 0, 41930101396);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 44840351499);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (2, 0, 0, 08945528068);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (3, 0, 0, 74370793028);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (1, 0, 0, 90140095798);
+insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 0, 05699724843);

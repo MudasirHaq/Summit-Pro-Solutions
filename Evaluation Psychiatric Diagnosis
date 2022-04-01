@@ -14,7 +14,7 @@ insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, AC
 insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('Salmonella arthritis', 'Mood disorder', 41895268601);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('Conjunctival pigmentations, unspecified eye', 'Non psychotic mental disorder', 63057262696);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('Other synovitis and tenosynovitis, thigh', 'Non psychotic psychological disorder', 55515315988);
-insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('Jump/div into swimming pool striking wall causing drown', 'Mental disorder', 98341434598);
+insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('Jump/div into swimming pool striking wall causing drown', 'Mental disorder', 89834143459);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('Inj cutan sensory nerve at shldr/up arm, right arm, sequela', 'Bipolar', 69719499750);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('Contact with other hot fluids', 'Psychological disorder in pregnancy', 45129431988);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_psych, dx_eval_medcial, ACN) values ('External constriction of part of breast, left breast, subs', 'Schizophrenia', 73373085843);

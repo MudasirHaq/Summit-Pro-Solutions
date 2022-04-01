@@ -4,6 +4,7 @@ CREATE TABLE Progress_Patient_Posture_Status (
 	mse_check_pn_posture_stooped BIT NOT NULL DEFAULT 0,
 	mse_check_pn_posture_kyphosis BIT NOT NULL DEFAULT 0,
 	ACN BIGINT NOT NULL,
+	progress_note_date DATE NOT NULL
 )
 
 insert into Progress_Patient_Posture_Status (mse_check_pn_posture_normal, mse_check_pn_posture_stooped, mse_check_pn_posture_kyphosis, ACN) values (1, 0, 0, 53847123888)

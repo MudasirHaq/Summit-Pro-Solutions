@@ -2,3 +2,44 @@ CREATE TABLE History_of_present_illness (
     HPI_entry VARCHAR(1000),
     ACN BIGINT NOT NULL
 )
+
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 53847123888);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 53239821780);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 49498809929);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 80829362529);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 50662091342);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 45293676173);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 76056640986);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 41895268601);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 63057262696);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 55515315988);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 98341434598);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 69719499750);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 45129431988);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 73373085843);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 40895957518);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 96102361618);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 67406231076);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 70400507649);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 88514553439);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 74649674998);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 71297297573);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 65541665839);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 47690387353);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 48119830340);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 91885989859);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 31179873541);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 33144119346);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 32898264888);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 62232077150);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 32240110223);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 41052277807);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 62410446126);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 38867183592);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 78466739510);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 41930101396);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 44840351499);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 08945528068);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 74370793028);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 90140095798);
+insert into History_of_present_illness  (hpi_entry, ACN) values ('', 05699724843);

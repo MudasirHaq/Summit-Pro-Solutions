@@ -22,7 +22,7 @@ INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (408959575
 INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (96102361618, 490273, '02/04/2022');
 INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (67406231076, 225377, '11/07/2021');
 INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (70400507649, 962852, '08/02/2021');
-INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (88514553439, 331308, '11/13/2008');
+INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (88514553439, 331308, '11/13/2019');
 INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (74649674998, 562945, '05/14/2019');
 INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (71297297573, 437420, '01/15/2019');
 INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date) VALUES (65541665839, 919996, '09/22/2019');

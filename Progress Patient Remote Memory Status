@@ -7,5 +7,6 @@ mse_check_pn_rmtmem_oldschoolname BIT NOT NULL DEFAULT 0,
 mse_opentxt_pn_rmtmem_other VARCHAR(1000),
 mse_check_pn_rmtmem_within_normal_limits BIT NOT NULL DEFAULT 0,
 mse_check_pn_rmtmem_impaired BIT NOT NULL DEFAULT 0,
+progress_note_date DATE NOT NULL,
 ACN BIGINT NOT NULL,
 )

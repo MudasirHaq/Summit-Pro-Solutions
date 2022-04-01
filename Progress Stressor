@@ -11,5 +11,6 @@ strs_check_pn_legal_problems BIT NOT NULL DEFAULT 0,
 strs_check_pn_occupational_problems BIT NOT NULL DEFAULT 0,
 strs_check_pn_educational_problems BIT NOT NULL DEFAULT 0,
 strs_check_pn_social_peer_problems BIT NOT NULL DEFAULT 0,
+progress_note_date DATE NOT NULL,
 ACN BIGINT NOT NULL,
 )

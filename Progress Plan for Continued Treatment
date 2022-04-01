@@ -4,5 +4,6 @@ pct_pn_check_coping_skills BIT NOT NULL DEFAULT 0,
 pct_pn_check_group_therapy BIT NOT NULL DEFAULT 0,
 pct_pn_check_program_participation BIT NOT NULL DEFAULT 0,
 pct_pn_opentxt_other VARCHAR(1000),
+progress_note_date DATE NOT NULL,
 ACN BIGINT NOT NULL,
 )

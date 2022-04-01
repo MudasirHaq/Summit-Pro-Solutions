@@ -10,5 +10,6 @@ rcs_pn_check_anxiety BIT NOT NULL DEFAULT 0,
 rcs_pn_check_mania BIT NOT NULL DEFAULT 0,
 rcs_pn_check_psychosis BIT NOT NULL DEFAULT 0,
 rcs_pn_check_irritability BIT NOT NULL DEFAULT 0,
+progress_note_date DATE NOT NULL,
 ACN BIGINT NOT NULL,
 )

@@ -16,7 +16,7 @@ insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_no
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('Causticum', 'once a month', 0, 0, 41895268601);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('CAFFEINE - CHELIDONIUM MAJUS', 'once a day', 0, 0, 63057262696);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('Salicylic Acid', 'once a day', 0, 0, 55515315988);
-insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('Fosphenytoin Sodium', 'every 8 hours', 0, 0, 98341434598);
+insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('Fosphenytoin Sodium', 'every 8 hours', 0, 0, 89834143459);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('OCTINOXATE', 'three times a day', 0, 0, 69719499750);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('Glipizide', 'every 12 hours', 0, 0, 45129431988);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('ATRACTYLODES JAPONICA ROOT OIL', 'once a day', 0, 0, 73373085843);
@@ -46,3 +46,4 @@ insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_no
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('Anti Itch Cream', 'every 8 hours', 0, 0, 74370793028);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('polymyxin B sulfate', 'once a day', 0, 0, 90140095798);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('Dihydroergotamine Mesylate', 'once a month', 0, 0, 05699724843);
+

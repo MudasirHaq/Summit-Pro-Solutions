@@ -11,6 +11,7 @@ progress_note_date DATE NOT NULL,
 ACN BIGINT NOT NULL
 )
 
+
 insert into Progess_Patient_Mental_Status_Exam_Recommendation (mse_check_pn_rec_med_stabilization, mse_check_pn_rec_milieu_therapy, mse_check_pn_rec_med_management, mse_check_pn_rec_coping_skills, mse_check_pn_rec_group_therapy, mse_check_pn_rec_participation, mse_opentxt_pn_rec_other, progress_note_date, ACN) values (1, 0, 0, 0, 0, 0, 0, '02/26/2019', 53847123888);
 insert into Progess_Patient_Mental_Status_Exam_Recommendation (mse_check_pn_rec_med_stabilization, mse_check_pn_rec_milieu_therapy, mse_check_pn_rec_med_management, mse_check_pn_rec_coping_skills, mse_check_pn_rec_group_therapy, mse_check_pn_rec_participation, mse_opentxt_pn_rec_other, progress_note_date, ACN) values (0, 0, 1, 0, 0, 0, 0, '08/22/2020', 53239821780);
 insert into Progess_Patient_Mental_Status_Exam_Recommendation (mse_check_pn_rec_med_stabilization, mse_check_pn_rec_milieu_therapy, mse_check_pn_rec_med_management, mse_check_pn_rec_coping_skills, mse_check_pn_rec_group_therapy, mse_check_pn_rec_participation, mse_opentxt_pn_rec_other, progress_note_date, ACN) values (0, 1, 0, 0, 0, 0, 0, '06/22/2019', 49498809929);

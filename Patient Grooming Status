@@ -16,7 +16,7 @@ insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (0, 0, 1, 1, 41895268601);
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (1, 0, 1, 1, 63057262696);
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (1, 0, 0, 0, 55515315988);
-insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (1, 0, 0, 1, 98341434598);
+insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (1, 0, 0, 1, 89834143459);
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (1, 0, 0, 1, 69719499750);
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (0, 0, 0, 0, 45129431988);
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (0, 0, 0, 0, 73373085843);

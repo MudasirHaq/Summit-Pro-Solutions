@@ -24,7 +24,6 @@ insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (1, 0, 0, 0, 96102361618);
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (1, 0, 0, 0, 67406231076);
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (1, 0, 0, 0, 70400507649);
-insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (0, 1, 0, 0, 63057262696);
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (1, 0, 0, 0, 88514553439);
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (0, 1, 0, 0, 74649674998);
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (1, 0, 0, 0, 71297297573);

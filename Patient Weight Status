@@ -16,7 +16,7 @@ insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (1, 0, 0, 1, 41895268601);
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (0, 0, 0, 1, 63057262696);
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (0, 0, 1, 0, 55515315988);
-insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (0, 0, 0, 1, 98341434598);
+insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (0, 0, 0, 1, 89834143459);
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (1, 0, 0, 0, 69719499750);
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (0, 1, 0, 0, 45129431988);
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (1, 0, 0, 0, 73373085843);
